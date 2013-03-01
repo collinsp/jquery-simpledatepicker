@@ -1,4 +1,4 @@
 jquery-simpledatepicker
 =======================
 
-simple date picker widget for your html page
+is a simple date picker widget for your html page

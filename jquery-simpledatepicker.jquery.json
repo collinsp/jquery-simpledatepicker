@@ -1,0 +1,24 @@
+{
+    "name": "jquery-simpledatepicker",
+    "version": "0.0.1",
+    "title": "jquery-simpledatepicker",
+    "description": "jquery-simpledatepicker is a simple date picker widget for your html page",
+    "author": {
+        "name": "Philip Collins"
+    },
+    "keywords": [
+        "widget"
+    ],
+    "homepage": "https://github.com/collinsp/jquery-simpledatepicker/",
+    "download": "https://github.com/collinsp/jquery-simpledatepicker/tarball/master",
+    "demo": "http://x.sr.unh.edu/jquery-simpledatepicker",
+    "licenses": [
+        {
+            "type": "MIT license (MIT)",
+            "url": "http://http://opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
