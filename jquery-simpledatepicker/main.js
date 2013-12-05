@@ -40,7 +40,7 @@
         month = month.toString().replace(/^(\d)$/,"0$1");
         var day = dt.getDate().toString().replace(/^(\d)$/,"0$1");
         var newDate = year+'-'+month+'-'+day;
-        var m = $.trim($inp.val()).match(/^\d{4}\-\d\d?\-\d\d?\b(.+)/);
+        var m = $.trim($inp.val()).match(/^\d{4}\-\d\d?\-\d\d?(.*)/);
         if (m) newDate += m[1];
         $inp.val(newDate);
         $datepicker.remove();
@@ -62,7 +62,7 @@
         month = month.toString().replace(/^(\d)$/,"0$1");
         var day = $(this).text().replace(/^(\d)$/,"0$1");
         var newDate = year+'-'+month+'-'+day;
-        var m = $.trim($inp.val()).match(/^\d{4}\-\d\d?\-\d\d?\b(.+)/);
+        var m = $.trim($inp.val()).match(/^\d{4}\-\d\d?\-\d\d?(.*)/);
         if (m) newDate += m[1];
         $inp.val(newDate);
         $datepicker.remove();
